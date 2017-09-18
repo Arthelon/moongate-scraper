@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "casperjs": "^1.1.4"
+  },
+  "scripts": {
+    "start": "casperjs index.js"
+  }
+}
