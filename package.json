@@ -1,4 +1,9 @@
 {
+  "name": "moongate-scraper",
+  "author": {
+    "email": "hsing.daniel@gmail.com",
+    "name": "Daniel Hsing"
+  },
   "dependencies": {
     "casperjs": "^1.1.4"
   },

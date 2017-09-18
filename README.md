@@ -1,4 +1,4 @@
-# moongate-cracker
+# moongate-scraper
 
 Casperjs script for scraping CISHK's moongate platform.
 
