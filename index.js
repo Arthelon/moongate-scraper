@@ -35,7 +35,11 @@ casper.then(function() {
   }
 });
 casper.then(function() {
-  this.captureSelector("results.png", selectors.searchResultsList);
+  if (this.exists(selectors.searchResultsList)) {
+    this.captureSelector("results.png", selectors.searchResultsList);
+  } else {
+    this.echo("No results found").exit();
+  }
 });
 // starts headless browser
 casper.run(function() {
